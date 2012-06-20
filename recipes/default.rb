@@ -1,3 +1,6 @@
+include_recipe "libbz2"
+include_recipe "libreadline"
+
 packages = Array.new
 
 case node[:lsb][:codename]
